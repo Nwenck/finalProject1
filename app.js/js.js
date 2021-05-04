@@ -8,7 +8,7 @@ let front = 1
 function setup(){
     createCanvas(1400, 800);
     back = random(255);
-    front = random(255);
+    front = random(254);
 }
 function draw() {
     background(back);
